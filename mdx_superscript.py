@@ -19,7 +19,7 @@ from markdown import Extension
 from markdown.inlinepatterns import SimpleTagPattern
 
 # match ^, at least one character that is not ^, and ^ again
-SUPERSCRIPT_RE = r"(\^)([^\^]+)\2"
+SUPERSCRIPT_RE = r"(\^\^)([^\^\^]+)\2"
 
 
 def makeExtension(*args, **kwargs):  # noqa: N802
